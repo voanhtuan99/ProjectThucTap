@@ -1,0 +1,62 @@
+.formdangnhap {
+    width: 550px;
+    height: 420px;
+    background-color: rgba(10, 56, 56, 0.7);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.login__title {
+    display: flex;
+}
+.login__title h3 {
+    position: absolute;
+    top: 17%;
+    left: 42%;
+    color: rgb(224, 208, 208);
+}
+
+.form__title {
+    display: flex;
+    margin: 20px auto;
+}
+.form__title h3 {
+    margin-top: 20px;
+    color: rgb(224, 208, 208);
+}
+.form__input {
+    margin: 7px 40px;
+    display: flex;
+    border: solid 3px rgb(112, 224, 168);
+}
+
+.form__input input::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 12px;
+}
+
+.form__icon {
+    width: 21px;
+    height: 21px;
+    color: rgb(212, 243, 243);
+    margin: auto 3px;
+}
+
+.form__input input {
+    height: 35px;
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.formdangnhap h5 {
+    margin-left: 75%;
+    color: turquoise;
+}
+
+.formdangnhap h5:hover {
+    color: rgb(149, 235, 226);
+    cursor: pointer;
+}
